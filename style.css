@@ -8,7 +8,7 @@ ttps://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f7f7f7;
+    background-color: #000000;
     scroll-behavior: smooth; 
 }
 
@@ -59,7 +59,7 @@ a:hover {
         url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dsskate.com.br%2Fempresa%3Fsrsltid%3DAfmBOoqhv9eFQfWL7dT8uF2m_HFQhv-Q8kJq4-wlT-vrIzhK7heRI_BF&psig=AOvVaw0M5l6zJAMynOz1WsjlVBXn&ust=1761910891832000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCWy9jry5ADFQAAAAAdAAAAABAE') no-repeat center center/cover;
     text-align: center;
     padding: 6rem 2rem;
-    color: #fff;
+    color: #BLACK;
     min-height: 90vh;
     display: flex;
     align-items: center;
@@ -72,18 +72,18 @@ a:hover {
 }
 
 .text-yellow-primary {
-    color: #fcca1d;
+    color: #7100CE;
 }
 
 .btn-primary-custom {
-    background-color: #fcca1d;
+    background-color: #7100CE;
     border-color: #fcca1d;
-    color: #333;
+    color: #000000;
     transition: all 0.2s;
 }
 
 .btn-primary-custom:hover {
-    background-color: #e5b312;
-    border-color: #e5b312;
-    color: #333;
+    background-color: #WITE;
+    border-color: #7100CE;
+    color: #7100CE;
 }
