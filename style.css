@@ -1,0 +1,89 @@
+@import url('h');
+ttps://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    scroll-behavior: smooth; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.8rem;
+    color:#7100ce;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    padding: 12px 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #7100CE;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: block;
+    transition: color 0.2s;
+}
+a:hover {
+    color:#7100CE;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dsskate.com.br%2Fempresa%3Fsrsltid%3DAfmBOoqhv9eFQfWL7dT8uF2m_HFQhv-Q8kJq4-wlT-vrIzhK7heRI_BF&psig=AOvVaw0M5l6zJAMynOz1WsjlVBXn&ust=1761910891832000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCWy9jry5ADFQAAAAAdAAAAABAE') no-repeat center center/cover;
+    text-align: center;
+    padding: 6rem 2rem;
+    color: #fff;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-section {
+    padding: 4rem 1rem;
+    min-height: 80vh;
+}
+
+.text-yellow-primary {
+    color: #fcca1d;
+}
+
+.btn-primary-custom {
+    background-color: #fcca1d;
+    border-color: #fcca1d;
+    color: #333;
+    transition: all 0.2s;
+}
+
+.btn-primary-custom:hover {
+    background-color: #e5b312;
+    border-color: #e5b312;
+    color: #333;
+}
